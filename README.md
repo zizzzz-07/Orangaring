@@ -1,5 +1,3 @@
-# Orangaring
-Pemula....
 <!doctype html>
 <html lang="id">
 <head>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Aziz Rahman Widiyanto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+      animation: fadeIn 1.2s ease-in;
+    }
+    header {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      animation: slideDown 1.2s ease;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      animation: zoomIn 1.2s ease;
+      object-fit: cover;
+    }
+    header h1 {
+      margin: 20px 0 10px;
+      font-size: 28px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      animation: fadeUp 1.2s ease;
+    }
+    h2 {
+      color: #4facfe;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔️ ";
+      color: #4facfe;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #4facfe;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .download-btn:hover {
+      background: #00c6ff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+    footer a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      transition: 0.3s;
+    }
+    footer a:hover {
+      color: #00f2fe;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    @keyframes slideDown {
+      from {transform: translateY(-50px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+    @keyframes zoomIn {
+      from {transform: scale(0.5); opacity: 0;}
+      to {transform: scale(1); opacity: 1;}
+    }
+    @keyframes fadeUp {
+      from {transform: translateY(50px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://files.catbox.moe/7opg7q.jpg" alt="Foto Aziz Rahman Widiyanto">
+    <h1>Aziz Rahman Widiyanto</h1>
+    <p>"Dingin abiezzzz"</p>
+  </header>
+
+  <section>
+    <h2>Tentang Saya</h2>
+    <p>Halo, saya Aziz Rahman Widiyanto, seorang pelajar dari kelas XI TJKT 2 dengan semangat belajar yang tinggi dan hobi mengeksplorasi hal baru.</p>
+  </section>
+
+  <section>
+    <h2>Keahlian</h2>
+    <ul>
+      <li>Berenang</li>
+      <li>Cepat Beradaptasi</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kontak</h2>
+    <p>📞 083843432859</p>
+    <a class="download-btn" href="#" download>Download CV</a>
+  </section>
+
+  <footer>
+    <p>Ikuti saya di:</p>
+    <a href="https://www.tiktok.com/@siibeku?_t=ZS-90CjR3C4EM6&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </footer>
+</body>
+</html>
